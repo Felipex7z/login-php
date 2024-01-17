@@ -22,11 +22,11 @@
 
 
                 <label for="sobrenome">Senha: </label>
-                <input type="text" name="senha" id="senha" placeholder="Sua senha">
+                <input type="password" name="senha" id="senha" placeholder="Sua senha">
 
 
                 <label for="sobrenome">Insira novamente a senha: </label>
-                <input type="text" name="repesenha" id="repesenha" placeholder="Digite a mesma senha">
+                <input type="password" name="senha2" id="senha2" placeholder="Insira a senha novamente">
 
 
                 <input type="submit" value="Cadastrar">
