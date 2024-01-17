@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="full">
-        <div class="form">
+    <div class="ft">
+        <div class="">
             <form action="cad.php" method="POST">
                 <label for="nome">Nome: </label>
                 <input type="text" name="nome" id="nome" placeholder="Digite seu Nome">
