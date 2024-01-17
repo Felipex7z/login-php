@@ -5,11 +5,14 @@ body, h1, p, form, input, label {
 
 body {
     font-family: Arial, sans-serif;
-}
-.ft{
     background-image: url(img/building-1359707_1920.jpg);
 }
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
 
+}
 /* Estilo para o formulário */
 form {
     max-width: 400px;
@@ -20,14 +23,14 @@ form {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilo para os rótulos dos campos */
+
 label {
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
 }
 
-/* Estilo para os campos de entrada de texto */
+
 input[type="text"],
 input[type="email"],
 input[type="password"] {
@@ -39,9 +42,10 @@ input[type="password"] {
     box-sizing: border-box;
 }
 
-/* Estilo para o botão de envio */
+
 input[type="submit"] {
-    background-color: #000000;
+    
+    background-color: #3C828C;
     color: #fff;
     padding: 10px 15px;
     border: none;
@@ -50,10 +54,13 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color:rgb(12, 12, 89) ;
+}
+.btn{
+    text-align: center;
 }
 
-/* Estilo para mensagens de erro */
+
 
 
 

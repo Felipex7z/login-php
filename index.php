@@ -10,6 +10,7 @@
     <div class="ft">
         <div class="">
             <form action="cad.php" method="POST">
+                <h1>Cadastre-se</h1>
                 <label for="nome">Nome: </label>
                 <input type="text" name="nome" id="nome" placeholder="Digite seu Nome">
 
@@ -28,8 +29,9 @@
                 <label for="sobrenome">Insira novamente a senha: </label>
                 <input type="password" name="senha2" id="senha2" placeholder="Insira a senha novamente">
 
-
+                <div  class="btn">
                 <input type="submit" value="Cadastrar">
+                </div>
 
 
 
