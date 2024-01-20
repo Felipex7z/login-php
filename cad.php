@@ -1,5 +1,9 @@
 <?php 
 
+
+
+
+
 $conexao = mysqli_connect("localhost", "root", "", "longin-php");
 
 $nome = $_POST["nome"];
@@ -12,9 +16,14 @@ $sql = "INSERT INTO .usu(nome, email, sobrenome, senha, senha2) VALUES ('$nome',
 
 
 $resultado = mysqli_query($conexao, $sql);
+echo "usúario ". $nome. " cadastrado com sucesso "  ;
 
-echo "sejá bem vindo " . $nome;
+
 
 
 
 ?>
+
+
+
+

@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -9,8 +11,8 @@
 <body>
     <div class="ft">
         <div class="">
-            <form action="cad.php" method="POST">
-                <h1>Cadastre-se</h1>
+            <form action="index.php" method="POST">
+                <h1>Cadastre-se </h1>
                 <label for="nome">Nome: </label>
                 <input type="text" name="nome" id="nome" placeholder="Digite seu Nome">
 
@@ -41,6 +43,10 @@
         </div>
 
     </div>
+    
+
+
+  
     
 </body>
 </html>
