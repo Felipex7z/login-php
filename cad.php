@@ -2,7 +2,7 @@
 
 
 
-
+// conexão com o banco de dados e resgate de dados//
 
 $conexao = mysqli_connect("localhost", "root", "", "longin-php");
 
@@ -16,7 +16,8 @@ $sql = "INSERT INTO .usu(nome, email, sobrenome, senha, senha2) VALUES ('$nome',
 
 
 $resultado = mysqli_query($conexao, $sql);
-echo "usúario ". $nome. " cadastrado com sucesso "  ;
+echo "usúario ". $nome. " cadastrado com sucesso ";
+
 
 
 
